@@ -20,6 +20,10 @@ img{
   padding: 0%;
 }
 
+img:hover{
+  opacity:0.5;
+}
+
 .code{
   display: inline-block;
   width: 10%;
@@ -31,5 +35,5 @@ img{
 }
 
 .code:hover{
-  background-color: #FFFFAA;
+  background-color: #FFFFFF;
 }
