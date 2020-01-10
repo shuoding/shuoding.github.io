@@ -3,14 +3,18 @@ body{
 }
 
 h1{
-  background-color: #888888;
+  background-color: #AAAAAA;
 }
 
 h2{
-  background-color: #999999;
+  background-color: #DDDDDD;
 }
 
 .code{
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+  color: #FFFFFF;
   background-color: #0000FF;
   text-decoration: none;
 }
