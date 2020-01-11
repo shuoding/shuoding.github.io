@@ -7,12 +7,13 @@ body{
 }
 
 section{
-  background-color: #CCCCCC;
+  background-color: #DDDDDD;
+  padding: 1%;
 }
 
 nav{
   position: fixed;
-  top: 5%;
+  top: 10%;
   left: 0%;
   text-align: center;
   width: 100%;
@@ -45,7 +46,7 @@ h1{
 }
 
 h2{
-  background-color: #AAAAAA;
+  background-color: #CCCCCC;
   text-align: center;
 }
 
