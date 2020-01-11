@@ -1,20 +1,22 @@
 body{
-  margin-top: 0%;
-  border-top-width: 0px;
-  padding-top: 0%;
-  font-family: Arial;
-  background-image: url('../image/background.jpg');
+  z-index: 1;
 }
 
-section{
-  background-color: #DDDDDD;
-  padding: 1%;
-  margin: 1%;
+nav{
+  z-index: 2;
+}
+
+body{
+  font-family: Arial;
+  background-image: url('../image/background.jpg');
+  margin: 0%;
+  border: 0px;
+  padding: 0%;
 }
 
 nav{
   position: fixed;
-  top: 12%;
+  top: 97%;
   left: 0%;
   text-align: center;
   width: 100%;
@@ -22,6 +24,7 @@ nav{
   margin: 0%;
   border: 0px;
   padding: 0%;
+  background-color: #FFFFFF;
 }
 
 nav a{
@@ -31,19 +34,52 @@ nav a{
   margin: 0%;
   border: 0px;
   padding: 0%;
+  color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
-  opacity: 0.5;
-  transition: .5s opacity;
+  transition: .5s background-color;
 }
 
 nav a:hover{
-  opacity: 1;
+  background-color: #FF00FF;
+}
+
+#bgibtn{
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  width: 20%;
+  height: 50px;
+  line-height: 50px;
+  margin: 0%;
+  border: 0px;
+  padding: 0%;
+  float: left;
+  background-color: #AA00AA;
+  transition: .5s background-color;
+}
+
+#bgibtn:hover{
+  background-color: #FF00FF;
 }
 
 h1{
   text-align: center;
-  margin-bottom: 5%;
+  display: inline-block;
+  width: 80%;
+  height: 50px;
+  line-height: 50px;
+  margin: 0%;
+  border: 0px;
+  padding: 0%;
+  background-color: #FFFFFF;
+}
+
+section{
+  background-color: #DDDDDD;
+  padding: 1%;
+  margin: 3%;
+  opacity: 0.7;
 }
 
 h2{
@@ -75,3 +111,4 @@ img{
 .code:hover{
   opacity: 1;
 }
+
