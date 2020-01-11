@@ -9,11 +9,12 @@ body{
 section{
   background-color: #DDDDDD;
   padding: 1%;
+  margin: 1%;
 }
 
 nav{
   position: fixed;
-  top: 10%;
+  top: 12%;
   left: 0%;
   text-align: center;
   width: 100%;
