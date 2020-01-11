@@ -63,11 +63,12 @@ img{
   height: 10%;
   text-align: center;
   color: #000000;
-  background-color: #FFFF00;
+  background-color: #FFFFFF;
   text-decoration: none;
-  transition: .5s background-color;
+  opacity: 0.5;
+  transition: .5s opacity;
 }
 
 .code:hover{
-  background-color: #FFFFFF;
+  opacity: 1;
 }
