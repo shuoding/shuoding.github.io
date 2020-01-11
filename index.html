@@ -16,88 +16,95 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <nav>
-      <a href="#bi">Basic Information</a>
-      <a href="#e">Education</a>
-      <a href="#ri">Research Interests</a>
-      <a href="#re">Research Experience</a>
-      <a href="#sp">Selected Projects</a>
-      <a href="#cc">Coding Contests</a>
-    </nav>
-
-    <h1>Welcome To My Personal Website!</h1>
-
-    <h2 id="bi">Basic Information</h2>
-    <img src="image/hat.jpeg" alt="me (1)">
-    <img src="image/mirror.jpg" alt="me (2)">
-    <p>Name: Shuo Ding</p>
-    <p>Email: sdingcn@outlook.com</p>
-    <p>This page was updated on January 10, 2020.</p>
-
-    <h2 id="e">Education</h2>
-    <h3>Georgia Institute of Technology, USA</h3>
-    <p>Master of Science in Computer Science, August 2018 - December 2019</p>
-    <p>GPA: 3.91/4.00</p>
-    <h3>Georgia Institute of Technology, USA</h3>
-    <p>School of Mathematics and Language Institute Visiting Honors Student Program, January 2017 - May 2017</p>
-    <p>GPA: 3.95/4.33</p>
-    <h3>Xi'an Jiaotong University, China</h3>
-    <p>Bachelor of Science in Mathematics and Applied Mathematics (Honors Program), August 2014 - June 2018</p>
-    <p>GPA: 3.83/4.3</p>
-    <p>Thesis: Research on Problems in Hypergraph Decompositions</p>
-
-    <h2 id="ri">Research Interests</h2>
-    <ul>
-      <li>Type Theory and Type Systems</li>
-      <li>Program Analysis</li>
-      <li>Logic and Verification</li>
-      <li>Foundations of Mathematics</li>
-      <li>Semantics</li>
-      <li>Programming Language Design and Implementation</li>
-    </ul>
-    <p>I will keep being open-minded.</p>
-
-    <h2 id="re">Research Experience</h2>
-    <h3>Hypergraph Decomposition (Combinatorics)</h3>
-    <p>Xi'an Jiaotong University, China, February 2018 - June 2018</p>
-    <ul>
-      <li>Proved some theorems in hypergraph decomposition</li>
-    </ul>
-    <h3>Uniform Program Generation (Compiler Testing)</h3>
-    <p>Georgia Institute of Technology, USA, June 2019 - August 2019</p>
-    <a class="code" href="https://github.com/shuoding/uniform-program-generator" title="uniform-program-generator" target="_blank">Code</a>
-    <ul>
-      <li>Designed and implemented a program generator that can generate programs uniformly based on the given context free grammar</li>
-      <li>Discussed and proved the correctness of the generation algorithm under certain conditions</li>
-      <li>Found several crashing bugs in GCC and Clang using this generator</li>
-    </ul>
-
-    <h2 id="sp">Selected Projects</h2>
-    <h3>Formalizing Featherweight X10 (Written in Coq)</h3>
-    <p>Georgia Institute of Technology, November 2019</p>
-    <a class="code" href="https://github.com/shuoding/formalizing-Featherweight-X10" title="Formalizing-Featherweight-X10" target="_blank">Code</a>
-    <ul>
-      <li>Defined inductive types representing the syntax of Featherweight X10 and binary relations encoding the small-step semantics</li>
-      <li>Proved a progress theorem, which implies the absence of deadlocks</li>
-    </ul>
-    <h3>SFPL Interpreter (Written in Haskell)</h3>
-    <p>Georgia Institute of Technology, July 2019</p>
-    <a class="code" href="https://github.com/shuoding/SFPL-Interpreter" title="SFPL-Interpreter" target="_blank">Code</a>
-    <ul>
-      <li>Designed and implemented a dynamically-typed functional programming language called SFPL (Small Functional Programming Language), which supports function closures and lexical scoping, recursive functions, higher order functions, and basic integer input and output</li>
-    </ul>
-    <h3>Tiger Compiler (Written in Java and C++)</h3>
-    <p>Georgia Institute of Technology, April 2019</p>
-    <ul>
-      <li>Implemented several main parts of a compiler for a simple but expressive imperative programming lanugage called Tiger</li>
-    </ul>
-
-    <h2 id="cc">Coding Contests</h2>
-    <ul>
-      <li>Silver Medal, 2016 ACM-ICPC China Shaanxi Provincial Programming Contest</li>
-      <li>Ranked in the <a href="https://leetcode.com/iomonad/" title="LeetCode Profile" target="_blank">top300</a> among more than 130000 users in LeetCode Contest (updated in January 2020)</li>
-    </ul>
-
+    <header>
+      <h1>Welcome To My Personal Website!</h1>
+      <nav>
+        <a href="#bi">Basic Information</a>
+        <a href="#e">Education</a>
+        <a href="#ri">Research Interests</a>
+        <a href="#re">Research Experience</a>
+        <a href="#sp">Selected Projects</a>
+        <a href="#cc">Coding Contests</a>
+      </nav>
+    </header>
+    <main>
+      <section id="bi">
+        <h2>Basic Information</h2>
+        <img src="image/hat.jpeg" alt="me (1)">
+        <img src="image/mirror.jpg" alt="me (2)">
+        <p>Name: Shuo Ding</p>
+        <p>Email: sdingcn@outlook.com</p>
+        <p>This page was updated on January 10, 2020.</p>
+      </section>
+      <section id="e">
+        <h2>Education</h2>
+        <h3>Georgia Institute of Technology, USA</h3>
+        <p>Master of Science in Computer Science, August 2018 - December 2019</p>
+        <p>GPA: 3.91/4.00</p>
+        <h3>Georgia Institute of Technology, USA</h3>
+        <p>School of Mathematics and Language Institute Visiting Honors Student Program, January 2017 - May 2017</p>
+        <p>GPA: 3.95/4.33</p>
+        <h3>Xi'an Jiaotong University, China</h3>
+        <p>Bachelor of Science in Mathematics and Applied Mathematics (Honors Program), August 2014 - June 2018</p>
+        <p>GPA: 3.83/4.3</p>
+        <p>Thesis: Research on Problems in Hypergraph Decompositions</p>
+      </section>
+      <section id="ri">
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Type Theory and Type Systems</li>
+          <li>Program Analysis</li>
+          <li>Logic and Verification</li>
+          <li>Foundations of Mathematics</li>
+          <li>Semantics</li>
+          <li>Programming Language Design and Implementation</li>
+        </ul>
+        <p>I will keep being open-minded.</p>
+      </section>
+      <section id="re">
+        <h2>Research Experience</h2>
+        <h3>Hypergraph Decomposition (Combinatorics)</h3>
+        <p>Xi'an Jiaotong University, China, February 2018 - June 2018</p>
+        <ul>
+          <li>Proved some theorems in hypergraph decomposition</li>
+        </ul>
+        <h3>Uniform Program Generation (Compiler Testing)</h3>
+        <p>Georgia Institute of Technology, USA, June 2019 - August 2019</p>
+        <a class="code" href="https://github.com/shuoding/uniform-program-generator" title="uniform-program-generator" target="_blank">Code</a>
+        <ul>
+          <li>Designed and implemented a program generator that can generate programs uniformly based on the given context free grammar</li>
+          <li>Discussed and proved the correctness of the generation algorithm under certain conditions</li>
+          <li>Found several crashing bugs in GCC and Clang using this generator</li>
+        </ul>
+      </section>
+      <section id="sp">
+        <h2>Selected Projects</h2>
+        <h3>Formalizing Featherweight X10 (Written in Coq)</h3>
+        <p>Georgia Institute of Technology, November 2019</p>
+        <a class="code" href="https://github.com/shuoding/formalizing-Featherweight-X10" title="Formalizing-Featherweight-X10" target="_blank">Code</a>
+        <ul>
+          <li>Defined inductive types representing the syntax of Featherweight X10 and binary relations encoding the small-step semantics</li>
+          <li>Proved a progress theorem, which implies the absence of deadlocks</li>
+        </ul>
+        <h3>SFPL Interpreter (Written in Haskell)</h3>
+        <p>Georgia Institute of Technology, July 2019</p>
+        <a class="code" href="https://github.com/shuoding/SFPL-Interpreter" title="SFPL-Interpreter" target="_blank">Code</a>
+        <ul>
+          <li>Designed and implemented a dynamically-typed functional programming language called SFPL (Small Functional Programming Language), which supports function closures and lexical scoping, recursive functions, higher order functions, and basic integer input and output</li>
+        </ul>
+        <h3>Tiger Compiler (Written in Java and C++)</h3>
+        <p>Georgia Institute of Technology, April 2019</p>
+        <ul>
+          <li>Implemented several main parts of a compiler for a simple but expressive imperative programming lanugage called Tiger</li>
+        </ul>
+      </section>
+      <section id="cc">
+        <h2>Coding Contests</h2>
+        <ul>
+          <li>Silver Medal, 2016 ACM-ICPC China Shaanxi Provincial Programming Contest</li>
+          <li>Ranked in the <a href="https://leetcode.com/iomonad/" title="LeetCode Profile" target="_blank">top300</a> among more than 130000 users in LeetCode Contest (updated in January 2020)</li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
