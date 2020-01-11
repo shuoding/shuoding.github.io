@@ -6,6 +6,10 @@ nav{
   z-index: 2;
 }
 
+header{
+  z-index: 3;
+}
+
 body{
   font-family: Arial;
   background-image: url('../image/background.jpg');
@@ -25,6 +29,17 @@ nav{
   border: 0px;
   padding: 0%;
   background-color: #FFFFFF;
+}
+
+header{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  margin: 0%;
+  border: 0px;
+  padding: 0%;
+  opacity: 0.8;
 }
 
 nav a{
@@ -79,7 +94,6 @@ section{
   background-color: #DDDDDD;
   padding: 1%;
   margin: 3%;
-  opacity: 0.7;
 }
 
 h2{
