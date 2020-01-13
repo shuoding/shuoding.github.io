@@ -142,3 +142,16 @@ img{
   background-color: #FF00FF;
 }
 
+@media all and (min-width: 500px) {
+  body{
+    font-size: medium;
+  }
+  
+  img{
+    width: 15%;
+  }
+
+  nav a{
+    width: 15%;
+  }
+}
