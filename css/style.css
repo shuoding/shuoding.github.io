@@ -57,7 +57,7 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #AA00AA;
+  background-color: #FF00FF;
 }
 
 #bgibtn{
@@ -76,7 +76,7 @@ nav a:hover{
 }
 
 #bgibtn:hover{
-  background-color: #AA00AA;
+  background-color: #FF00FF;
 }
 
 h1{
@@ -92,7 +92,7 @@ h1{
 }
 
 main{
-  padding-top: 50vh;
+  padding-top: 10vh;
 }
 
 section{
@@ -134,6 +134,6 @@ img{
 }
 
 .code:hover{
-  background-color: #AA00AA;
+  background-color: #FF00FF;
 }
 
