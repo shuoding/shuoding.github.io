@@ -83,12 +83,11 @@ nav a:hover{
 }
 
 h1{
-  font-size: large;
   text-align: center;
   display: inline-block;
   width: 80%;
   height: 10vh;
-  line-height: 10vh;
+  line-height: 5vh;
   margin: 0%;
   border: 0px;
   padding: 0%;
