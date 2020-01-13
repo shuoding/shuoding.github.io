@@ -142,7 +142,7 @@ img{
   background-color: #FF00FF;
 }
 
-@media all and (min-width: 500px) {
+@media (orientation: landscape) {
   body{
     font-size: medium;
   }
