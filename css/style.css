@@ -154,4 +154,21 @@ img{
   nav a{
     width: 15%;
   }
+
+  #modebtn{
+    line-height: 10vh;
+  }
+
+  h1{
+    line-height: 10vh;
+  }
+
+  nav{
+    top: 90vh;
+    height: 10vh;
+  }
+
+  main{
+    padding-bottom: 10vh;
+  }
 }
