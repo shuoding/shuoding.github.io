@@ -12,7 +12,7 @@ header{
 
 body{
   font-family: Arial;
-  background-image: url('../image/background.jpg');
+  background-color: #AAAAFF;
   margin: 0%;
   border: 0px;
   padding: 0%;
@@ -22,7 +22,8 @@ header{
   position: fixed;
   top: 0%;
   left: 0%;
-  width: 100%;
+  width: 100vw;
+  height: 10vh;
   margin: 0%;
   border: 0px;
   padding: 0%;
@@ -31,11 +32,11 @@ header{
 
 nav{
   position: fixed;
-  top: 97%;
+  top: 97vh;
   left: 0%;
   text-align: center;
   width: 100%;
-  height: 3%;
+  height: 3vh;
   margin: 0%;
   border: 0px;
   padding: 0%;
@@ -50,13 +51,13 @@ nav a{
   border: 0px;
   padding: 0%;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #880088;
   text-decoration: none;
   transition: .5s background-color;
 }
 
 nav a:hover{
-  background-color: #FF00FF;
+  background-color: #AA00AA;
 }
 
 #bgibtn{
@@ -64,26 +65,26 @@ nav a:hover{
   font-weight: bold;
   display: inline-block;
   width: 20%;
-  height: 50px;
-  line-height: 50px;
+  height: 10vh;
+  line-height: 10vh;
   margin: 0%;
   border: 0px;
   padding: 0%;
   float: left;
-  background-color: #AA00AA;
+  background-color: #880088;
   transition: .5s background-color;
 }
 
 #bgibtn:hover{
-  background-color: #FF00FF;
+  background-color: #AA00AA;
 }
 
 h1{
   text-align: center;
   display: inline-block;
   width: 80%;
-  height: 50px;
-  line-height: 50px;
+  height: 10vh;
+  line-height: 10vh;
   margin: 0%;
   border: 0px;
   padding: 0%;
@@ -91,14 +92,14 @@ h1{
 }
 
 main{
-  padding-top: 50px;
+  padding-top: 50vh;
 }
 
 section{
   background-color: #DDDDDD;
   margin: 3%;
   border: 0px;
-  padding-top: 50px;
+  padding-top: 10vh;
   padding-bottom: 1%;
   padding-left: 1%;
   padding-right: 1%;
@@ -116,7 +117,7 @@ img{
   display: inline-block;
   width: 10%;
   margin: 2%;
-  border: solid 3px;
+  border: solid 1vw;
   border-color: #000000;
   padding: 0%;
 }
@@ -127,13 +128,12 @@ img{
   height: 10%;
   text-align: center;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #880088;
   text-decoration: none;
-  opacity: 0.5;
-  transition: .5s opacity;
+  transition: .5s background-color;
 }
 
 .code:hover{
-  opacity: 1;
+  background-color: #AA00AA;
 }
 
