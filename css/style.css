@@ -60,7 +60,7 @@ nav a:hover{
   background-color: #FF00FF;
 }
 
-#bgibtn{
+#modebtn{
   text-align: center;
   font-weight: bold;
   display: inline-block;
@@ -75,7 +75,7 @@ nav a:hover{
   transition: .5s background-color;
 }
 
-#bgibtn:hover{
+#modebtn:hover{
   background-color: #FF00FF;
 }
 
