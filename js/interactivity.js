@@ -1,11 +1,11 @@
-function changeBackgroundImage() {
-	var bgibtn = document.getElementById("bgibtn");
+function switchMode() {
+	var modebtn = document.getElementById("modebtn");
 	var bd = document.getElementById("bd");
-	if (bgibtn.innerHTML === "Hide Background Image") {
-		bgibtn.innerHTML = "Show Background Image";
-		bd.style.backgroundImage = "url('')";
+	if (modebtn.innerHTML === "Switch To Night Mode") {
+		modebtn.innerHTML = "Switch To Day Mode";
+		bd.style.backgroundColor = "#000000";
 	} else {
-		bgibtn.innerHTML = "Hide Background Image";
-		bd.style.backgroundImage = "url('image/background.jpg')";
+		modebtn.innerHTML = "Switch To Night Mode";
+		bd.style.backgroundColor = "#AAAAFF";
 	}
 }
