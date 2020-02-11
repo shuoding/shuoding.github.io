@@ -127,12 +127,22 @@ img{
   padding: 0%;
 }
 
-.multicol{
+#multicol1{
   display: inline-block;
-  width: 40%;
+  float: left;
+  width: 80%;
   margin: 0%;
   border: 0px;
-  padding: 2%;
+  padding: 4%;
+}
+
+#multicol2{
+  display: inline-block;
+  float: left;
+  width: 80%;
+  margin: 0%;
+  border: 0px;
+  padding: 4%;
 }
 
 @media (orientation: landscape) {
@@ -160,4 +170,15 @@ img{
   main{
     padding-bottom: 10vh;
   }
+
+  #multicol1{
+    width: 32%;
+    padding: 2%;
+  }
+
+  #multicol2{
+    width: 52%;
+    padding: 2%;
+  }
+
 }
