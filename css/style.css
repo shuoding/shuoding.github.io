@@ -120,7 +120,8 @@ h2{
 
 img{
   display: inline-block;
-  width: 50%;
+  float: left;
+  width: 70%;
   margin: 2%;
   border: solid 2px;
   border-color: #000000;
@@ -129,7 +130,6 @@ img{
 
 #multicol1{
   display: inline-block;
-  float: left;
   width: 80%;
   margin: 0%;
   border: 0px;
@@ -138,7 +138,6 @@ img{
 
 #multicol2{
   display: inline-block;
-  float: left;
   width: 80%;
   margin: 0%;
   border: 0px;
