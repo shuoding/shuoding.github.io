@@ -120,7 +120,7 @@ h2{
 
 img{
   display: inline-block;
-  width: 70%;
+  width: 50%;
   margin: 2%;
   border: solid 2px;
   border-color: #000000;
@@ -129,10 +129,10 @@ img{
 
 .multicol{
   display: inline-block;
-  width: 40vw;
+  width: 40%;
   margin: 0%;
   border: 0px;
-  padding: 5vw;
+  padding: 5%;
 }
 
 @media (orientation: landscape) {
