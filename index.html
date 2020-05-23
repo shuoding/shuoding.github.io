@@ -70,24 +70,15 @@
         </ul>
       </section>
       <section>
-        <h2>Miscellaneous</h2>
-	<h3>Programming languages that I like</h3>
-	<ul>
-		<li>C++, because it is versatile, modern, and fast</li>
-		<li>Java, because it is relatively safe and very popular</li>
-		<li>Python, because it is very dynamic, popular, and contains a great standard library</li>
-		<li>Coq, because it is rigorous</li>
-		<li>Racket, because it has a powerful macro system, and its syntax is cute</li>
-	</ul>
-	<h3>Interesting code snippets</h3>
+        <h2>Interesting Code Snippets</h2>
 
-<h4>Python Y combinator</h4>
+<h3>Python Y combinator</h3>
 <pre><code>
 Y = lambda f : (lambda x : f(lambda *args : x(x)(*args)))(lambda x : f(lambda *args : x(x)(*args)))
 fact = Y(lambda g : lambda n : 1 if n == 0 else n * g(n - 1))
 </code></pre>
 
-<h4>Python list ring</h4>
+<h3>Python list ring</h3>
 <pre><code>
 def make_ring(n: int) -&gt; list:
     nodes = [[] for i in range(n)]
@@ -96,7 +87,7 @@ def make_ring(n: int) -&gt; list:
     return nodes[0]
 </code></pre>
 
-<h4>C++ template metaprogramming</h4>
+<h3>C++ template metaprogramming</h3>
 <pre><code>
 #include &lt;iostream&gt;
 
@@ -117,7 +108,7 @@ int main() {
 }
 </code></pre>
 
-<h4>Haskell one line infinite prime list</h4>
+<h3>Haskell one line infinite prime list</h3>
 <pre><code>
 primes = let f (x : xs) = x : f [y | y &lt;- xs, y `mod` x /= 0] in f [2..]
 </code></pre>
