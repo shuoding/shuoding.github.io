@@ -81,6 +81,12 @@
 	</ul>
 	<h3>Interesting code snippets</h3>
 
+<h4>Python Y combinator</h4>
+<pre><code>
+Y = lambda f : (lambda x : f(lambda *args : x(x)(*args)))(lambda x : f(lambda *args : x(x)(*args)))
+fact = Y(lambda g : lambda n : 1 if n == 0 else n * g(n - 1))
+</code></pre>
+
 <h4>Python list ring</h4>
 <pre><code>
 def make_ring(n: int) -&gt; list:
