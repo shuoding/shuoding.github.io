@@ -30,17 +30,17 @@
 	<div id="multicol2">
 		<p><strong>Name:</strong> Shuo Ding</p>
 		<p><strong>Email:</strong> sdingcn@outlook.com</p>
-		<p><strong>Last Update:</strong> May 19, 2020 (Time in Atlanta)</p>
+		<p><strong>Last Update:</strong> May 23, 2020 (Time in Atlanta)</p>
 		<p><strong>Research Interests:</strong></p>
 		<ul>
 			<li>
 				Programming Languages
 				<ul>
 					<li>Program Analysis</li>
+					<li>Formal Languages and Formal Semantics</li>
 					<li>Software Verification and Validation</li>
 					<li>Compilers and Interpreters</li>
 					<li>Type Theory and Type Systems</li>
-					<li>Formal Languages and Formal Semantics</li>
 				</ul>
 			</li>
 			<li>
@@ -51,34 +51,32 @@
 					<li>Computational Complexity Theory</li>
 				</ul>
 			</li>
+			<li>
+				Mathematical Logic
+			</li>
 		</ul>
 	</div>
       </section>
       <section>
-        <h2>Education and Research Positions</h2>
-	<h3>Research Assistant</h3>
-	<p>Georgia Institute of Technology, USA, February 2020 - August 2020 (expected)</p>
-        <h3>Master of Science in Computer Science</h3>
-	<p>Georgia Institute of Technology, USA, August 2018 - December 2019</p>
-        <h3>Bachelor of Science in Mathematics and Applied Mathematics (Honors Program)</h3>
-	<p>Xi'an Jiaotong University, China, August 2014 - June 2018</p>
+        <h2>Education and Positions</h2>
+	<p>Research Assistant, Georgia Institute of Technology, USA, February 2020 - August 2020 (expected)</p>
+        <p>Master of Science in Computer Science, Georgia Institute of Technology, USA, August 2018 - December 2019</p>
+        <p>Bachelor of Science in Mathematics and Applied Mathematics (Honors Program), Xi'an Jiaotong University, China, August 2014 - June 2018</p>
       </section>
       <section>
         <h2>Coding Contests</h2>
-        <ul>
-          <li>Silver Medal, 2016 ACM-ICPC China Shaanxi Provincial Programming Contest</li>
-        </ul>
+        <p>Silver Medal, 2016 ACM-ICPC China Shaanxi Provincial Programming Contest</p>
       </section>
       <section>
         <h2>Interesting Code Snippets</h2>
 
-<h3>Python Y combinator</h3>
+<h3>Python Y Combinator</h3>
 <pre><code>
 Y = lambda f : (lambda x : f(lambda *args : x(x)(*args)))(lambda x : f(lambda *args : x(x)(*args)))
 fact = Y(lambda g : lambda n : 1 if n == 0 else n * g(n - 1))
 </code></pre>
 
-<h3>Python list ring</h3>
+<h3>Python Reference Ring</h3>
 <pre><code>
 def make_ring(n: int) -&gt; list:
     nodes = [[] for i in range(n)]
@@ -87,7 +85,7 @@ def make_ring(n: int) -&gt; list:
     return nodes[0]
 </code></pre>
 
-<h3>C++ template metaprogramming</h3>
+<h3>C++ Compilation Time Computation</h3>
 <pre><code>
 #include &lt;iostream&gt;
 
@@ -108,7 +106,7 @@ int main() {
 }
 </code></pre>
 
-<h3>Haskell one line infinite prime list</h3>
+<h3>Haskell Infinite Lazy Prime List</h3>
 <pre><code>
 primes = let f (x : xs) = x : f [y | y &lt;- xs, y `mod` x /= 0] in f [2..]
 </code></pre>
