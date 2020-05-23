@@ -71,7 +71,7 @@
       </section>
       <section>
         <h2>Miscellaneous</h2>
-	<p>Programming languages that I like:</p>
+	<h3>Programming languages that I like</h3>
 	<ul>
 		<li>C++, because it is versatile, modern, and fast</li>
 		<li>Java, because it is relatively safe and very popular</li>
@@ -79,6 +79,22 @@
 		<li>Coq, because it is rigorous</li>
 		<li>Racket, because it has a powerful macro system, and its syntax is cute</li>
 	</ul>
+	<h3>Interesting code snippets</h3>
+
+<p>Python list ring</p>
+<pre><code>
+def make_ring(n: int) -> list:
+    nodes = [[] for i in range(n)]
+    for i in range(n):
+        nodes[i].append(nodes[(i + 1) % n])
+    return nodes[0]
+</code></pre>
+
+<p>Haskell one line infinite prime list</p>
+<pre><code>
+primes = let f (x : xs) = x : f [y | y <- xs, y `mod` x /= 0] in f [2..]
+</code></pre>
+
       </section>
     </main>
   </body>
