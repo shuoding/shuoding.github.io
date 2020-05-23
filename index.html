@@ -81,18 +81,39 @@
 	</ul>
 	<h3>Interesting code snippets</h3>
 
-<p>Python list ring</p>
+<h4>Python list ring</h4>
 <pre><code>
-def make_ring(n: int) -> list:
+def make_ring(n: int) -&gt; list:
     nodes = [[] for i in range(n)]
     for i in range(n):
         nodes[i].append(nodes[(i + 1) % n])
     return nodes[0]
 </code></pre>
 
-<p>Haskell one line infinite prime list</p>
+<h4>C++ template metaprogramming</h4>
 <pre><code>
-primes = let f (x : xs) = x : f [y | y <- xs, y `mod` x /= 0] in f [2..]
+#include &lt;iostream&gt;
+
+template &lt;unsigned N&gt; struct fib {
+    static constexpr unsigned val = fib&lt;N - 1&gt;::val + fib&lt;N - 2&gt;::val;
+};
+
+template &lt;&gt; struct fib&lt;2&gt; {
+    static constexpr unsigned val = 1;
+};
+
+template &lt;&gt; struct fib&lt;1&gt; {
+    static constexpr unsigned val = 1;
+};
+
+int main() {
+    std::cout &lt;&lt; fib&lt;6&gt;::val &lt;&lt; std::endl;
+}
+</code></pre>
+
+<h4>Haskell one line infinite prime list</h4>
+<pre><code>
+primes = let f (x : xs) = x : f [y | y &lt;- xs, y `mod` x /= 0] in f [2..]
 </code></pre>
 
       </section>
