@@ -85,42 +85,6 @@ h2{
   padding: 0%;
 }
 
-#i0{
-  display: inline-block;
-  width: 85%;
-  margin: 2%;
-  border: solid 2px;
-  border-color: #000000;
-  padding: 0%;
-}
-
-#i1{
-  display: inline-block;
-  width: 20%;
-  margin: 2%;
-  border: solid 2px;
-  border-color: #000000;
-  padding: 0%;
-}
-
-#i2{
-  display: inline-block;
-  width: 20%;
-  margin: 2%;
-  border: solid 2px;
-  border-color: #000000;
-  padding: 0%;
-}
-
-#i3{
-  display: inline-block;
-  width: 20%;
-  margin: 2%;
-  border: solid 2px;
-  border-color: #000000;
-  padding: 0%;
-}
-
 #multicol1{
   display: inline-block;
   width: 80%;
@@ -135,6 +99,15 @@ h2{
   padding: 0%;
   border: 0px;
   margin: 4%;
+}
+
+#i0{
+  display: inline-block;
+  width: 50%;
+  margin: 2%;
+  border: solid 2px;
+  border-color: #000000;
+  padding: 0%;
 }
 
 @media (orientation: landscape) {
@@ -155,12 +128,12 @@ h2{
   }
 
   #multicol1{
-    width: 24%;
+    width: 12%;
     margin: 1%;
   }
 
   #multicol2{
-    width: 66%;
+    width: 78%;
     margin: 0%;
   }
 
