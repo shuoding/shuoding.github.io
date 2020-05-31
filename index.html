@@ -47,13 +47,13 @@
       <section>
         <h2>Interesting Code Snippets</h2>
 
-<h3>Python Y Combinator</h3>
+<h3>Python: Y combinator</h3>
 <pre><code>
 Y = lambda f : (lambda x : f(lambda *args : x(x)(*args)))(lambda x : f(lambda *args : x(x)(*args)))
 fact = Y(lambda g : lambda n : 1 if n == 0 else n * g(n - 1))
 </code></pre>
 
-<h3>Python Reference Ring</h3>
+<h3>Python: Reference ring</h3>
 <pre><code>
 def make_ring(n: int) -&gt; list:
     nodes = [[] for i in range(n)]
@@ -62,7 +62,7 @@ def make_ring(n: int) -&gt; list:
     return nodes[0]
 </code></pre>
 
-<h3>C++ Compilation Time Computation</h3>
+<h3>C++: Compilation time computation</h3>
 <pre><code>
 #include &lt;iostream&gt;
 
@@ -83,9 +83,22 @@ int main() {
 }
 </code></pre>
 
-<h3>Haskell Infinite Lazy Prime List</h3>
+<h3>Haskell: Infinite lazy prime list</h3>
 <pre><code>
 primes = let f (x : xs) = x : f [y | y &lt;- xs, y `mod` x /= 0] in f [2..]
+</code></pre>
+
+<h3>Haskell (GHC extensions): Simple dependent types</h3>
+<pre><code>
+data Flag = Empty | NonEmpty
+
+data FMaybe :: Flag -&gt; * -&gt; * where
+    FNothing :: FMaybe Empty a
+    FJust :: a -&gt; FMaybe NonEmpty a
+
+fMaybeMap :: (a -&gt; b) -&gt; FMaybe fl a -&gt; FMaybe fl b
+fMaybeMap f FNothing = FNothing
+fMaybeMap f (FJust x) = FJust (f x)
 </code></pre>
 
       </section>
