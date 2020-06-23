@@ -91,7 +91,10 @@ h2{
   background-color: #6666FF;
   margin: 0%;
   border: 0px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   padding-left: 2vh;
+  padding-right: 2vh;
 }
 
 #multicol1{
