@@ -59,7 +59,7 @@ h1{
   margin: 0%;
   border: 0px;
   padding: 0%;
-  background-color: #FF0000;
+  background-color: #6666FF;
 }
 
 main{
@@ -68,7 +68,7 @@ main{
 }
 
 section{
-  background-color: #FF0000;
+  background-color: #6666FF;
   opacity: 0.8;
   margin: 3%;
   border: 0px;
@@ -80,7 +80,7 @@ section{
 }
 
 h2{
-  background-color: #BBBBFF;
+  background-color: #AAAAFF;
   text-align: center;
   margin: 0%;
   border: 0px;
