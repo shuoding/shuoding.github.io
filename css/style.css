@@ -9,7 +9,7 @@ header{
 body{
   font-family: Arial;
   font-size: xx-large;
-  color: #FFFFFF;
+  color: #000000;
   background-image: url("../image/0623_2.jpg");
   background-repeat: repeat;
   margin: 0%;
@@ -60,7 +60,7 @@ h1{
   margin: 0%;
   border: 0px;
   padding: 0%;
-  background-color: #0000FF;
+  background-color: #3333FF;
 }
 
 main{
@@ -69,7 +69,7 @@ main{
 }
 
 section{
-  background-color: #3333FF;
+  background-color: #6666FF;
   opacity: 0.8;
   margin: 0%;
   border: 0px;
@@ -88,7 +88,7 @@ section{
 }
 
 h2{
-  background-color: #6666FF;
+  background-color: #9999FF;
   text-align: center;
   margin: 0%;
   border: 0px;
