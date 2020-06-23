@@ -9,7 +9,7 @@ header{
 body{
   font-family: Arial;
   font-size: xx-large;
-  background-image: url("../image/0623_1.jpg");
+  background-image: url("../image/0623_2.jpg");
   background-repeat: repeat;
   margin: 0%;
   border: 0px;
@@ -17,6 +17,7 @@ body{
 }
 
 header{
+  background-color: #FFAAAA;
   position: fixed;
   top: 0%;
   left: 0%;
@@ -25,7 +26,7 @@ header{
   margin: 0%;
   border: 0px;
   padding: 0%;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 /*
@@ -68,8 +69,8 @@ main{
 }
 
 section{
-  background-color: #FFFFFF;
-  opacity: 0.7;
+  background-color: #AAAAFF;
+  opacity: 0.9;
   margin: 3%;
   border: 0px;
   padding-top: 1%;
