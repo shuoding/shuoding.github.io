@@ -36,14 +36,16 @@
       </section>
       <section>
         <h2>Experience</h2>
+	<div class="cont">
 	<p>Research Assistant, Georgia Tech, USA, Feb 2020 - Aug 2020 (expected)</p>
         <p>MS in Computer Science, Georgia Tech, USA, Aug 2018 - Dec 2019</p>
         <p>Silver Medal, 2016 ACM-ICPC China Shaanxi Provincial Programming Contest</p>
         <p>BS in Mathematics and Applied Mathematics (Honors Program), Xi'an Jiaotong University, China, Aug 2014 - Jun 2018</p>
+	</div>
       </section>
       <section>
         <h2>Interesting Code Snippets</h2>
-
+	<div class="cont">
 <h3>Python: Y combinator</h3>
 <pre><code>
 Y = lambda f : (lambda x : f(lambda *args : x(x)(*args)))(lambda x : f(lambda *args : x(x)(*args)))
@@ -97,7 +99,7 @@ fMaybeMap :: (a -&gt; b) -&gt; FMaybe fl a -&gt; FMaybe fl b
 fMaybeMap f FNothing = FNothing
 fMaybeMap f (FJust x) = FJust (f x)
 </code></pre>
-
+	</div>
       </section>
     </main>
   </body>

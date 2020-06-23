@@ -65,7 +65,7 @@ h1{
 
 main{
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 0vh;
 }
 
 section{
@@ -73,11 +73,18 @@ section{
   opacity: 0.8;
   margin: 0%;
   border: 0px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
   /* opacity: 0.8; */
+}
+
+.cont{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 
 h2{
@@ -127,7 +134,7 @@ h2{
   }
 
   main{
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   #multicol1{
