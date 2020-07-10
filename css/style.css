@@ -7,7 +7,6 @@ header{
 }
 
 body{
-  font-family: cursive;
   font-size: xx-large;
   color: #000000;
   margin: 0%;
@@ -16,6 +15,7 @@ body{
 }
 
 header{
+  font-family: monospace;
   position: fixed;
   top: 0%;
   left: 0%;
@@ -62,6 +62,7 @@ h1{
 }
 
 main{
+  font-family: cursive;
   padding-top: 10vh;
   padding-bottom: 0vh;
 }
