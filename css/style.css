@@ -7,11 +7,9 @@ header{
 }
 
 body{
-  font-family: monospace;
+  font-family: cursive;
   font-size: xx-large;
   color: #000000;
-  background-image: url("../image/0623_2.jpg");
-  background-repeat: repeat;
   margin: 0%;
   border: 0px;
   padding: 0%;
