@@ -14,11 +14,10 @@
     <meta charset="utf-8">
     <title>Shuo Ding</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- <script src="js/interactivity.js"></script> -->
   </head>
   <body id="bd">
     <header>
-      <!-- <p id="modebtn" onclick="switchMode()">Switch To Night Mode</p> -->
+      <a id="langlink" href="indexcn.html" lang="zh-cmn">中文版</a>
       <h1>Shuo Ding | sdingcn aT outlook dOT com</h1>
     </header>
     <main>
@@ -47,66 +46,6 @@
 	<h2>Misc</h2>
 	<p>ACM-ICPC (Provincial) Silver Medal, Chang'an University, China, May 2016</p>
       </section>
-      <!--
-      <section>
-        <h2>Interesting Code Snippets</h2>
-	<div class="cont">
-<h3>Python: Y combinator</h3>
-<pre><code>
-Y = lambda f : (lambda x : f(lambda *args : x(x)(*args)))(lambda x : f(lambda *args : x(x)(*args)))
-fact = Y(lambda g : lambda n : 1 if n == 0 else n * g(n - 1))
-</code></pre>
-
-<h3>Python: Reference ring</h3>
-<pre><code>
-def make_ring(n: int) -&gt; list:
-    nodes = [[] for i in range(n)]
-    for i in range(n):
-        nodes[i].append(nodes[(i + 1) % n])
-    return nodes[0]
-</code></pre>
-
-<h3>C++: Compilation time computation</h3>
-<pre><code>
-#include &lt;iostream&gt;
-
-template &lt;unsigned N&gt; struct fib {
-    static constexpr unsigned val = fib&lt;N - 1&gt;::val + fib&lt;N - 2&gt;::val;
-};
-
-template &lt;&gt; struct fib&lt;2&gt; {
-    static constexpr unsigned val = 1;
-};
-
-template &lt;&gt; struct fib&lt;1&gt; {
-    static constexpr unsigned val = 1;
-};
-
-int main() {
-    std::cout &lt;&lt; fib&lt;6&gt;::val &lt;&lt; std::endl;
-}
-</code></pre>
-
-<h3>Haskell: Infinite lazy prime list</h3>
-<pre><code>
-primes = let f (x : xs) = x : f [y | y &lt;- xs, y `mod` x /= 0] in f [2..]
-</code></pre>
-
-<h3>Haskell (GHC extensions): Simple dependent types</h3>
-<pre><code>
-data Flag = Empty | NonEmpty
-
-data FMaybe :: Flag -&gt; * -&gt; * where
-    FNothing :: FMaybe Empty a
-    FJust :: a -&gt; FMaybe NonEmpty a
-
-fMaybeMap :: (a -&gt; b) -&gt; FMaybe fl a -&gt; FMaybe fl b
-fMaybeMap f FNothing = FNothing
-fMaybeMap f (FJust x) = FJust (f x)
-</code></pre>
-	</div>
-      </section>
-      -->
     </main>
   </body>
 </html>
