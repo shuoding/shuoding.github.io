@@ -41,12 +41,12 @@ header{
   padding: 0%;
   float: left;
   color: #FFFFFF;
-  background-color: #880088;
+  background-color: #0000AA;
   transition: .5s background-color;
 }
 
 #langlink:hover{
-  background-color: #FF00FF;
+  background-color: #0000FF;
 }
 
 h1{
