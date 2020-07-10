@@ -28,7 +28,7 @@ header{
 }
 
 
-#langbtn{
+#langlink{
   text-align: center;
   font-weight: bold;
   display: inline-block;
@@ -44,7 +44,7 @@ header{
   transition: .5s background-color;
 }
 
-#langbtn:hover{
+#langlink:hover{
   background-color: #FF00FF;
 }
 
@@ -118,7 +118,7 @@ h2{
     font-size: medium;
   }
  
-  #modebtn{
+  #langlink{
     line-height: 10vh;
   }
 
