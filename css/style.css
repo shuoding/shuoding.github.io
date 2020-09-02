@@ -8,6 +8,7 @@ header{
 
 body{
   font-size: xx-large;
+  font-family: Arial;
   color: #000000;
   margin: 0%;
   border: 0px;
@@ -15,7 +16,6 @@ body{
 }
 
 header{
-  font-family: monospace;
   position: fixed;
   top: 0%;
   left: 0%;
@@ -62,7 +62,6 @@ h1{
 }
 
 main{
-  font-family: cursive;
   padding-top: 10vh;
   padding-bottom: 0vh;
   padding-left: 0vw;
