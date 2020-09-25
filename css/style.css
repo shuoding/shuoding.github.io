@@ -28,7 +28,7 @@ header{
 }
 
 
-#toplink{
+#toplnk{
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -45,7 +45,7 @@ header{
   transition: .5s background-color;
 }
 
-#toplink:hover{
+#toplnk:hover{
   background-color: #AAAAFF;
 }
 
@@ -118,7 +118,7 @@ h2{
     font-size: medium;
   }
  
-  #toplink{
+  #toplnk{
     line-height: 10vh;
   }
 
