@@ -28,7 +28,7 @@ header{
 }
 
 
-#langlink{
+#toplink{
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -45,11 +45,11 @@ header{
   transition: .5s background-color;
 }
 
-#langlink:hover{
+#toplink:hover{
   background-color: #AAAAFF;
 }
 
-h1{
+#fakeh1{
   text-align: center;
   display: inline-block;
   width: 80vw;
@@ -118,11 +118,11 @@ h2{
     font-size: medium;
   }
  
-  #langlink{
+  #toplink{
     line-height: 10vh;
   }
 
-  h1{
+  #fakeh1{
     line-height: 10vh;
   }
 
@@ -133,12 +133,12 @@ h2{
   */
 
   #multicol1{
-    width: 15%;
+    width: 10%;
     margin: 0%;
   }
 
   #multicol2{
-    width: 75%;
+    width: 80%;
     margin: 0%;
   }
 
