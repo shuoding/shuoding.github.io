@@ -58,6 +58,7 @@ header{
   margin: 0%;
   border: 0px;
   padding: 0%;
+  color: #FFFFFF;
   background-color: #FF00FF;
 }
 
@@ -133,12 +134,12 @@ h2{
   */
 
   #multicol1{
-    width: 10%;
+    width: 15%;
     margin: 0%;
   }
 
   #multicol2{
-    width: 80%;
+    width: 75%;
     margin: 0%;
   }
 
