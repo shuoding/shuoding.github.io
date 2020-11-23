@@ -1,5 +1,5 @@
 body{
-  font-size: medium;
+  font-size: x-large;
   font-family: Arial;
   color: #000000;
   margin: 0%;
@@ -71,7 +71,7 @@ h2{
 
 #itype{
   display: inline-block;
-  height: 98%;
+  width: 98%;
   margin: 0 auto;
   border: solid 2px;
   border-color: #000000;
