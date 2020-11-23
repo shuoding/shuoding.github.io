@@ -20,16 +20,15 @@ header{
 
 main{
   padding-top: 10vh;
-  padding-bottom: 0vh;
-  padding-left: 0vw;
-  padding-right: 0vw;
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
   margin: 0%;
   border: 0px;
 }
 
 section{
   background-color: #FFFFFF;
-  opacity: 0.8;
   margin: 0%;
   border: 0px;
   padding-top: 2vh;
@@ -47,7 +46,7 @@ h2{
 
 #multicol1{
   display: inline-block;
-  width: 45%;
+  width: 25%;
   padding: 0%;
   border: 0px;
   margin: 0%;
@@ -55,7 +54,7 @@ h2{
 
 #multicol2{
   display: inline-block;
-  width: 45%;
+  width: 65%;
   padding: 0%;
   border: 0px;
   margin: 0%;
@@ -63,7 +62,7 @@ h2{
 
 #i0{
   display: inline-block;
-  width: 80%;
+  width: 85%;
   margin: 0%;
   border: solid 2px;
   border-color: #000000;
@@ -73,7 +72,7 @@ h2{
 #itype{
   display: inline-block;
   height: 98%;
-  margin: 0%;
+  margin: 0 auto;
   border: solid 2px;
   border-color: #000000;
   padding: 0%;
