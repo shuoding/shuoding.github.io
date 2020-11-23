@@ -16,7 +16,6 @@ body{
 }
 
 header{
-  position: fixed;
   top: 0%;
   left: 0%;
   width: 100vw;
@@ -24,43 +23,8 @@ header{
   margin: 0%;
   border: 0px;
   padding: 0%;
-  opacity: 0.8;
 }
 
-
-#toplnk{
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  width: 20vw;
-  height: 10vh;
-  line-height: 5vh;
-  margin: 0%;
-  border: 0px;
-  padding: 0%;
-  float: left;
-  color: #FFFFFF;
-  background-color: #0000AA;
-  transition: .5s background-color;
-}
-
-#toplnk:hover{
-  background-color: #AAAAFF;
-}
-
-#fakeh1{
-  text-align: center;
-  display: inline-block;
-  width: 80vw;
-  height: 10vh;
-  line-height: 5vh;
-  margin: 0%;
-  border: 0px;
-  padding: 0%;
-  color: #FFFFFF;
-  background-color: #FF00FF;
-}
 
 main{
   padding-top: 10vh;
@@ -119,20 +83,6 @@ h2{
     font-size: medium;
   }
  
-  #toplnk{
-    line-height: 10vh;
-  }
-
-  #fakeh1{
-    line-height: 10vh;
-  }
-
-  /*
-  main{
-    padding-bottom: 0vh;
-  }
-  */
-
   #multicol1{
     width: 18%;
     margin: 0%;
