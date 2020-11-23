@@ -1,5 +1,5 @@
 body{
-  font-size: x-large;
+  font-size: large;
   font-family: Arial;
   color: #000000;
   margin: 0%;
@@ -11,7 +11,7 @@ header{
   top: 0%;
   left: 0%;
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   margin: 0%;
   border: 0px;
   padding: 0%;
@@ -19,10 +19,10 @@ header{
 
 
 main{
-  padding-top: 10vh;
-  padding-bottom: 5vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-top: 8vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
   margin: 0%;
   border: 0px;
 }
@@ -31,8 +31,8 @@ section{
   background-color: #FFFFFF;
   margin: 0%;
   border: 0px;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   padding-left: 1vw;
   padding-right: 1vw;
 }
