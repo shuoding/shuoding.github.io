@@ -1,48 +1,10 @@
 body{
-  font-size: large;
   font-family: Arial;
   color: #000000;
-  margin: 0%;
-  border: 0px;
-  padding: 0%;
 }
 
 header{
-  opacity: 0.3;
-  top: 0%;
-  left: 0%;
-  width: 100vw;
-  height: 8vh;
-  margin: 0%;
-  border: 0px;
-  padding: 0%;
-}
-
-
-main{
-  padding-top: 8vh;
-  padding-bottom: 1vh;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  margin: 0%;
-  border: 0px;
-}
-
-section{
-  background-color: #FFFFFF;
-  margin: 0%;
-  border: 0px;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 1vw;
-  padding-right: 1vw;
-}
-
-h2{
-  background-color: #FFFFFF;
-  margin: 0%;
-  border: 0px;
-  padding: 0%;
+  background-color: #AAAAFF;
 }
 
 #multicol1{
@@ -65,15 +27,6 @@ h2{
   display: inline-block;
   width: 70%;
   margin: 0%;
-  border: solid 2px;
-  border-color: #000000;
-  padding: 0%;
-}
-
-#itype{
-  display: inline-block;
-  width: 98%;
-  margin: 0 auto;
   border: solid 2px;
   border-color: #000000;
   padding: 0%;
