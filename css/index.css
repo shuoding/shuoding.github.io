@@ -3,10 +3,6 @@ body{
   color: #000000;
 }
 
-header{
-  background-color: #CCCCFF;
-}
-
 #multicol1{
   display: inline-block;
   width: 25%;
