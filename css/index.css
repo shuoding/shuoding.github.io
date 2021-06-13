@@ -24,10 +24,10 @@ body{
 	}
 	#multicol1{
 		display: inline-block;
-		width: 30%;
+		width: 25%;
 	}
 	#multicol2{
 		display: inline-block;
-		width: 60%;
+		width: 65%;
 	}
 }
